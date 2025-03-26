@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pedidos</title>
+    <link rel="stylesheet" href="stylesPedidos.css">
+</head>
+<body>
+    <header>
+        <h1>Realiza tu pedido</h1>
+    </header>
+
+    <section class="pedido-form">
+        <form id="formPedido">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" required>
+
+            <label for="email">Correo electrónico:</label>
+            <input type="email" id="email" required>
+
+            <label for="direccion">Dirección:</label>
+            <input type="text" id="direccion" required>
+
+            <label for="detalles">Detalles del pedido:</label>
+            <textarea id="detalles" rows="4" required></textarea>
+
+            <button type="submit">Enviar Pedido</button>
+        </form>
+    </section>
+
+    <script src="pedidos.js"></script>
+</body>
+</html>
